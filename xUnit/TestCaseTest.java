@@ -46,7 +46,7 @@ public class TestCaseTest extends TestCase{
 	}
 
 	public static void main(String args[]) throws Exception{	
-		TestSuite suite = new TestSuite();
+		TestSuite suite = new TestSuite();    
 		TestResult result = new TestResult();
 		suite.add(new TestCaseTest("testTemplateMethod"));
 		suite.add(new TestCaseTest("testResult"));
