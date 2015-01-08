@@ -8,7 +8,7 @@ public class TestSuite implements Test{
 	
 	public TestSuite(){
 		tests = new ArrayList<TestCase>();
-	}   
+	}      
 
 	public void add(TestCase test) {
 		this.tests.add(test);

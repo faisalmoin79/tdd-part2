@@ -8,7 +8,7 @@ public class TestResult {
 		this.runCount = 0;
 		this.errorCount = 0;
 	}
-	   
+	      
 	public String summary(){
 		return this.runCount + " run, "+this.errorCount+" failed";
 	}

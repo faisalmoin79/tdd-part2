@@ -7,7 +7,7 @@ public class TestCase implements Test{
 
 	public TestCase(String methodName){
 		this.methodName = methodName;
-	}       
+	}           
 	
 	public void setUp(){
 	}

@@ -53,7 +53,7 @@ public class TestCaseTest extends TestCase{
 		suite.add(new TestCaseTest("testFailedResult"));
 		suite.add(new TestCaseTest("testFailedResultFormatting"));
 		suite.add(new TestCaseTest("testSuite"));
-		suite.run(result);
+		suite.run(result);   
 		System.out.println(result.summary());
 	}
 }
